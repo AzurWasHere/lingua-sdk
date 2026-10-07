@@ -1,0 +1,12 @@
+{
+  "$schema": "https://unpkg.com/@changesets/config@4.0.1/schema.json",
+  "baseBranch": "main",
+  "access": "public",
+  "format": "auto",
+  "changelog": "@changesets/cli/changelog",
+  "commit": false,
+  "ignore": ["@lingua-api/shared", "lingua-sdk-monorepo", "@lingua-api/example-*"],
+  "fixed": [["@lingua-api/*"]],
+  "linked": [],
+  "updateInternalDependencies": "patch"
+}

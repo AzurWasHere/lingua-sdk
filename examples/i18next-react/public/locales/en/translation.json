@@ -1,0 +1,9 @@
+{
+  "welcome": "Welcome, {{name}}!",
+  "item_one": "{{count}} item",
+  "item_other": "{{count}} items",
+  "29klt78xonx": "Hello {{name}}",
+  "27j4zyzrwfc": "Click <b>here</b>",
+  "hz7ol5umgo_one": "{{count}} new message",
+  "hz7ol5umgo_other": "{{count}} new messages"
+}

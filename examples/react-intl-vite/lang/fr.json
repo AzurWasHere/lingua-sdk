@@ -1,0 +1,15 @@
+{
+  "app.title": {
+    "defaultMessage": "Votre boîte de réception",
+    "description": "Page heading"
+  },
+  "14ip0v2n9um": {
+    "defaultMessage": "Bonjour {name}"
+  },
+  "24p3jii0t66": {
+    "defaultMessage": "{count, plural, one {# message} other {# messages}}"
+  },
+  "1t8ur5xec86": {
+    "defaultMessage": "Enregistré par <b>{name}</b>"
+  }
+}

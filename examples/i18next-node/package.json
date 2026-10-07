@@ -1,0 +1,23 @@
+{
+  "name": "@lingua-api/example-i18next-node",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/main.ts",
+    "build": "tsc --noEmit",
+    "lingua": "lingua",
+    "translate": "lingua translate",
+    "check": "lingua check"
+  },
+  "dependencies": {
+    "@lingua-api/i18next": "workspace:*",
+    "i18next": "^26.4.2"
+  },
+  "devDependencies": {
+    "@lingua-api/cli": "workspace:*",
+    "@types/node": "^22.20.5",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3"
+  }
+}

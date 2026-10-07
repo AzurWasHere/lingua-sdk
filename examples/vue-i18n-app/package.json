@@ -1,0 +1,26 @@
+{
+  "name": "@lingua-api/example-vue-i18n-app",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "lingua": "lingua",
+    "translate": "lingua translate",
+    "check": "lingua check"
+  },
+  "dependencies": {
+    "@lingua-api/vue-i18n": "workspace:*",
+    "vue": "^3.5.43",
+    "vue-i18n": "^11.4.13"
+  },
+  "devDependencies": {
+    "@lingua-api/cli": "workspace:*",
+    "@vitejs/plugin-vue": "^6.0.9",
+    "@vue/compiler-sfc": "^3.5.43",
+    "typescript": "^5.9.3",
+    "vite": "^8.3.3",
+    "vue-tsc": "^3.3.12"
+  }
+}

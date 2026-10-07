@@ -1,0 +1,9 @@
+{
+  "nav": {
+    "home": "Accueil"
+  },
+  "1k1aw151jzn": "Bienvenue dans l’application d’exemple",
+  "12f5mljv9p4": "{count, plural, one {# nouveau message} other {# nouveaux messages}}",
+  "14ip0v2n9um": "Bonjour {name}",
+  "3n58els0xy": "Lisez la <b>documentation</b>"
+}

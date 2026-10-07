@@ -1,0 +1,9 @@
+{
+  "nav": {
+    "home": "Home"
+  },
+  "1k1aw151jzn": "Welcome to the example app",
+  "12f5mljv9p4": "{count, plural, one {# new message} other {# new messages}}",
+  "14ip0v2n9um": "Hello {name}",
+  "3n58els0xy": "Read the <b>docs</b>"
+}

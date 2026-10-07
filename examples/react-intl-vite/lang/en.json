@@ -1,0 +1,15 @@
+{
+  "app.title": {
+    "defaultMessage": "Your inbox",
+    "description": "Page heading"
+  },
+  "14ip0v2n9um": {
+    "defaultMessage": "Hello {name}"
+  },
+  "24p3jii0t66": {
+    "defaultMessage": "{count, plural, one {# message} other {# messages}}"
+  },
+  "1t8ur5xec86": {
+    "defaultMessage": "Saved by <b>{name}</b>"
+  }
+}

@@ -1,0 +1,10 @@
+export type { LinguaConfig } from "@lingua-api/core";
+export { defineConfig } from "@lingua-api/core";
+export { type MainIo, main } from "./cli";
+export { runCheck } from "./commands/check";
+export { runExtract } from "./commands/extract";
+export { type InitOptions, init } from "./commands/init";
+export { runTranslate, type TranslateCommandOptions } from "./commands/translate";
+export { runWatch, type WatchOptions } from "./commands/watch";
+export { type DescribedError, describeError, UsageError } from "./errors";
+export type { Context } from "./output";

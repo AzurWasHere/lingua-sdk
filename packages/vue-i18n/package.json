@@ -1,0 +1,53 @@
+{
+  "name": "@lingua-api/vue-i18n",
+  "version": "0.0.0",
+  "type": "module",
+  "license": "MIT",
+  "author": "Lingua",
+  "homepage": "https://github.com/TODO/lingua-sdk#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TODO/lingua-sdk.git",
+    "directory": "packages/vue-i18n"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "sideEffects": false,
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.cts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    },
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "build": "tsdown",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "dev": "tsdown --watch"
+  },
+  "devDependencies": {
+    "@lingua-api/shared": "workspace:*"
+  },
+  "peerDependencies": {
+    "vue": ">=3.3",
+    "vue-i18n": ">=9"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

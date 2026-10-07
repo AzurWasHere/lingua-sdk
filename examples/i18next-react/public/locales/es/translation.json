@@ -1,0 +1,11 @@
+{
+  "welcome": "¡Bienvenido, {{name}}!",
+  "item_one": "{{count}} artículo",
+  "item_many": "{{count}} de artículos",
+  "item_other": "{{count}} artículos",
+  "29klt78xonx": "Hola {{name}}",
+  "27j4zyzrwfc": "Haz clic <b>aquí</b>",
+  "hz7ol5umgo_one": "{{count}} mensaje nuevo",
+  "hz7ol5umgo_many": "{{count}} de mensajes nuevos",
+  "hz7ol5umgo_other": "{{count}} mensajes nuevos"
+}
