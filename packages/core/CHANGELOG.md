@@ -1,5 +1,13 @@
 # @lingua-api/core
 
+## 0.1.1
+
+### Patch Changes
+
+- b18079f: First release published from CI through npm Trusted Publishing, with provenance.
+- Updated dependencies [b18079f]
+  - @lingua-api/client@0.1.1
+
 ## 0.1.0
 
 ### Minor Changes

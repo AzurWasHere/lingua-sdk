@@ -1,5 +1,11 @@
 # @lingua-api/i18next
 
+## 0.1.1
+
+### Patch Changes
+
+- b18079f: First release published from CI through npm Trusted Publishing, with provenance.
+
 ## 0.1.0
 
 ### Minor Changes
