@@ -2,7 +2,7 @@
 
 `lingua` keeps an application's translation catalogs in sync with its source-language catalog by machine-translating through the Lingua API (`https://api.lingua-api.com`). It understands the catalog formats and layouts of **next-intl**, **react-intl**, **i18next** and **vue-i18n**, protects interpolation placeholders and markup from the translation engine, writes only the target-locale files, and records every result in `lingua.lock.json` so later runs translate only what changed. Translation happens at development/build time only — never in the browser and never at request time.
 
-Status: pre-release. Repository URL and npm org are placeholders until the project is published (`https://github.com/TODO/lingua-sdk`).
+Status: pre-release. The npm org is a placeholder until the project is published. Repository: https://github.com/AzurWasHere/lingua-sdk
 
 ## Quick start
 
