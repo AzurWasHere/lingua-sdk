@@ -16,12 +16,16 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: pnpm/action-setup@v4
+      # tsdown needs Node ^22.18 || ^24.11; build there, then test on the matrix version.
       - uses: actions/setup-node@v4
         with:
-          node-version: ${{ matrix.node }}
+          node-version: 24
           cache: pnpm
       - run: pnpm install --frozen-lockfile
       - run: pnpm build
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
       - run: pnpm typecheck
       - run: pnpm lint
       - run: pnpm test
